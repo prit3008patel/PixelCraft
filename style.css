@@ -23,6 +23,16 @@
 
 body {
     font-family: 'sora', sans-serif;
+    animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* navbar  */
@@ -1346,6 +1356,25 @@ footer {
     padding: 0 20px;
     color: #000;
 }
+
+
+/* @keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.scroll_animation{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+
+
+} */
 
 @media only screen and (max-width:1320px) {
     .s4-cards-main-div {
